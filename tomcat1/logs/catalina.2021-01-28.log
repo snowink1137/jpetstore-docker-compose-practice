@@ -1,0 +1,415 @@
+28-Jan-2021 06:58:57.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jan-2021 06:58:57.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jan-2021 06:58:57.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jan-2021 06:58:57.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 06:58:57.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1127.19.1.el7.x86_64
+28-Jan-2021 06:58:57.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 06:58:57.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+28-Jan-2021 06:58:57.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_282-b08
+28-Jan-2021 06:58:57.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2021 06:58:57.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2021 06:58:57.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2021 06:58:57.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2021 06:58:57.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 06:58:57.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 06:58:57.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 06:58:57.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2021 06:58:57.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 06:58:57.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2021 06:58:57.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2021 06:58:57.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2021 06:58:57.706 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.6.5].
+28-Jan-2021 06:58:57.706 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2021 06:58:57.706 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2021 06:58:57.814 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+28-Jan-2021 06:58:59.635 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 06:58:59.890 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3789] milliseconds
+28-Jan-2021 06:58:59.962 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 06:58:59.963 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jan-2021 06:59:00.043 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/jpetstore.war]
+28-Jan-2021 06:59:03.083 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2021 06:59:03.273 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+28-Jan-2021 06:59:04.845 INFO [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.initDatabase Starting embedded database: url='jdbc:hsqldb:mem:dataSource', username='sa'
+28-Jan-2021 06:59:06.779 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 3506 ms
+28-Jan-2021 06:59:06.874 INFO [main] net.sourceforge.stripes.util.Log.info Using VFS adapter net.sourceforge.stripes.vfs.DefaultVFS
+28-Jan-2021 06:59:07.313 INFO [main] net.sourceforge.stripes.util.Log.info No locale list specified, defaulting to single locale: en
+28-Jan-2021 06:59:07.430 WARNING [main] net.sourceforge.stripes.util.Log.warn No MultipartWrapper implementation could be loaded
+28-Jan-2021 06:59:07.541 INFO [main] net.sourceforge.stripes.util.Log.info Stripes Initialization Complete. Version: 1.6.0, Build: 1.6.0
+28-Jan-2021 06:59:07.610 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/jpetstore.war] has finished in [7,562] ms
+28-Jan-2021 06:59:07.629 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 06:59:07.763 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7872] milliseconds
+28-Jan-2021 07:10:51.074 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:10:51.173 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2021 07:10:51.206 INFO [Thread-4] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.shutdownDatabase Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+28-Jan-2021 07:10:51.266 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jpetstore] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2021 07:10:51.287 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:10:51.343 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:11:14.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1127.19.1.el7.x86_64
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_282-b08
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2021 07:11:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2021 07:11:14.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2021 07:11:14.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 07:11:14.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 07:11:14.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 07:11:14.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2021 07:11:14.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 07:11:14.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2021 07:11:14.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2021 07:11:14.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2021 07:11:14.692 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.6.5].
+28-Jan-2021 07:11:14.692 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2021 07:11:14.692 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2021 07:11:14.705 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+28-Jan-2021 07:11:15.948 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:11:16.207 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1866] milliseconds
+28-Jan-2021 07:11:16.347 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 07:11:16.347 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jan-2021 07:11:16.416 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/jpetstore.war]
+28-Jan-2021 07:11:19.896 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2021 07:11:20.116 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+28-Jan-2021 07:11:22.633 INFO [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.initDatabase Starting embedded database: url='jdbc:hsqldb:mem:dataSource', username='sa'
+28-Jan-2021 07:11:25.968 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 5850 ms
+28-Jan-2021 07:11:26.006 INFO [main] net.sourceforge.stripes.util.Log.info Using VFS adapter net.sourceforge.stripes.vfs.DefaultVFS
+28-Jan-2021 07:11:26.754 INFO [main] net.sourceforge.stripes.util.Log.info No locale list specified, defaulting to single locale: en
+28-Jan-2021 07:11:27.130 WARNING [main] net.sourceforge.stripes.util.Log.warn No MultipartWrapper implementation could be loaded
+28-Jan-2021 07:11:27.270 INFO [main] net.sourceforge.stripes.util.Log.info Stripes Initialization Complete. Version: 1.6.0, Build: 1.6.0
+28-Jan-2021 07:11:27.320 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/jpetstore.war] has finished in [10,896] ms
+28-Jan-2021 07:11:27.345 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:11:27.540 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11332] milliseconds
+28-Jan-2021 07:11:32.960 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:11:32.969 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2021 07:11:32.983 INFO [Thread-4] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.shutdownDatabase Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+28-Jan-2021 07:11:33.032 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jpetstore] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2021 07:11:33.059 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:11:33.153 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:12:36.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jan-2021 07:12:36.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jan-2021 07:12:36.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jan-2021 07:12:36.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 07:12:36.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1127.19.1.el7.x86_64
+28-Jan-2021 07:12:36.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 07:12:36.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+28-Jan-2021 07:12:36.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_282-b08
+28-Jan-2021 07:12:36.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2021 07:12:36.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2021 07:12:36.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2021 07:12:36.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2021 07:12:36.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 07:12:36.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 07:12:36.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 07:12:36.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2021 07:12:36.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 07:12:36.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2021 07:12:36.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2021 07:12:36.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2021 07:12:36.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.6.5].
+28-Jan-2021 07:12:36.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2021 07:12:36.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2021 07:12:36.902 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+28-Jan-2021 07:12:37.525 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:12:37.584 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1136] milliseconds
+28-Jan-2021 07:12:37.610 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 07:12:37.610 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jan-2021 07:12:37.638 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/jpetstore.war]
+28-Jan-2021 07:12:40.799 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2021 07:12:41.016 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+28-Jan-2021 07:12:43.489 INFO [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.initDatabase Starting embedded database: url='jdbc:hsqldb:mem:dataSource', username='sa'
+28-Jan-2021 07:12:46.330 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 5314 ms
+28-Jan-2021 07:12:46.386 INFO [main] net.sourceforge.stripes.util.Log.info Using VFS adapter net.sourceforge.stripes.vfs.DefaultVFS
+28-Jan-2021 07:12:47.032 INFO [main] net.sourceforge.stripes.util.Log.info No locale list specified, defaulting to single locale: en
+28-Jan-2021 07:12:47.368 WARNING [main] net.sourceforge.stripes.util.Log.warn No MultipartWrapper implementation could be loaded
+28-Jan-2021 07:12:47.594 INFO [main] net.sourceforge.stripes.util.Log.info Stripes Initialization Complete. Version: 1.6.0, Build: 1.6.0
+28-Jan-2021 07:12:47.648 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/jpetstore.war] has finished in [10,003] ms
+28-Jan-2021 07:12:47.659 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:12:47.808 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10223] milliseconds
+28-Jan-2021 07:25:13.285 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:25:13.311 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2021 07:25:13.326 INFO [Thread-4] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.shutdownDatabase Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+28-Jan-2021 07:25:13.380 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jpetstore] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2021 07:25:13.423 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:25:13.500 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:25:25.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jan-2021 07:25:25.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jan-2021 07:25:25.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jan-2021 07:25:25.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 07:25:25.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1127.19.1.el7.x86_64
+28-Jan-2021 07:25:25.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 07:25:25.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+28-Jan-2021 07:25:25.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_282-b08
+28-Jan-2021 07:25:25.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2021 07:25:25.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2021 07:25:25.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2021 07:25:25.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2021 07:25:25.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 07:25:25.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 07:25:25.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 07:25:25.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2021 07:25:25.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 07:25:25.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2021 07:25:25.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2021 07:25:25.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2021 07:25:25.817 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.6.5].
+28-Jan-2021 07:25:25.817 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2021 07:25:25.817 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2021 07:25:25.823 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+28-Jan-2021 07:25:26.312 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:25:26.391 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [969] milliseconds
+28-Jan-2021 07:25:26.454 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 07:25:26.455 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jan-2021 07:25:26.512 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/jpetstore.war]
+28-Jan-2021 07:25:29.263 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2021 07:25:29.455 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+28-Jan-2021 07:25:31.473 INFO [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.initDatabase Starting embedded database: url='jdbc:hsqldb:mem:dataSource', username='sa'
+28-Jan-2021 07:25:34.042 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 4585 ms
+28-Jan-2021 07:25:34.154 INFO [main] net.sourceforge.stripes.util.Log.info Using VFS adapter net.sourceforge.stripes.vfs.DefaultVFS
+28-Jan-2021 07:25:34.739 INFO [main] net.sourceforge.stripes.util.Log.info No locale list specified, defaulting to single locale: en
+28-Jan-2021 07:25:34.883 WARNING [main] net.sourceforge.stripes.util.Log.warn No MultipartWrapper implementation could be loaded
+28-Jan-2021 07:25:34.990 INFO [main] net.sourceforge.stripes.util.Log.info Stripes Initialization Complete. Version: 1.6.0, Build: 1.6.0
+28-Jan-2021 07:25:35.043 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/jpetstore.war] has finished in [8,528] ms
+28-Jan-2021 07:25:35.050 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:25:35.182 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8791] milliseconds
+28-Jan-2021 07:25:52.726 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:25:52.773 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2021 07:25:52.810 INFO [Thread-4] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.shutdownDatabase Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+28-Jan-2021 07:25:52.865 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jpetstore] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2021 07:25:52.874 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:25:52.930 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:26:13.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1127.19.1.el7.x86_64
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_282-b08
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2021 07:26:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2021 07:26:13.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2021 07:26:13.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 07:26:13.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 07:26:13.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 07:26:13.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2021 07:26:13.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 07:26:13.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2021 07:26:13.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2021 07:26:13.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2021 07:26:13.360 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.6.5].
+28-Jan-2021 07:26:13.360 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2021 07:26:13.361 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2021 07:26:13.372 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+28-Jan-2021 07:26:14.445 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:26:14.591 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1572] milliseconds
+28-Jan-2021 07:26:14.660 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 07:26:14.660 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jan-2021 07:26:14.716 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/jpetstore.war]
+28-Jan-2021 07:26:17.690 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2021 07:26:17.921 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+28-Jan-2021 07:26:20.615 INFO [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.initDatabase Starting embedded database: url='jdbc:hsqldb:mem:dataSource', username='sa'
+28-Jan-2021 07:26:23.490 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 5569 ms
+28-Jan-2021 07:26:23.567 INFO [main] net.sourceforge.stripes.util.Log.info Using VFS adapter net.sourceforge.stripes.vfs.DefaultVFS
+28-Jan-2021 07:26:24.413 INFO [main] net.sourceforge.stripes.util.Log.info No locale list specified, defaulting to single locale: en
+28-Jan-2021 07:26:24.783 WARNING [main] net.sourceforge.stripes.util.Log.warn No MultipartWrapper implementation could be loaded
+28-Jan-2021 07:26:24.991 INFO [main] net.sourceforge.stripes.util.Log.info Stripes Initialization Complete. Version: 1.6.0, Build: 1.6.0
+28-Jan-2021 07:26:25.066 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/jpetstore.war] has finished in [10,344] ms
+28-Jan-2021 07:26:25.072 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:26:25.206 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10614] milliseconds
+28-Jan-2021 07:26:35.536 INFO [http-nio-8080-exec-1] net.sourceforge.stripes.util.Log.info Expression validation will be performed using: net.sourceforge.stripes.validation.expression.Jsp21ExpressionExecutor
+28-Jan-2021 07:28:00.554 WARNING [http-nio-8080-exec-4] org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl.warn As you are using functionality that deserializes object streams, it is recommended to define the JEP-290 serial filter. Please refer to https://docs.oracle.com/pls/topic/lookup?ctx=javase15&id=GUID-8296D8E8-2B93-4B9A-856E-0A65AF9B8C66
+28-Jan-2021 07:28:00.915 INFO [http-nio-8080-exec-4] net.sourceforge.stripes.util.Log.info Could not find property [EST-19] on ActionBean.net.sourceforge.stripes.util.bean.NoSuchPropertyException: Bean class org.mybatis.jpetstore.web.actions.CartActionBean does not contain a property called 'EST-19'. As a result the following expression could not be evaluated: EST-19
+28-Jan-2021 07:47:54.721 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:47:54.735 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2021 07:47:54.787 INFO [Thread-4] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.shutdownDatabase Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+28-Jan-2021 07:47:54.840 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jpetstore] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2021 07:47:54.862 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:47:54.892 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:48:06.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jan-2021 07:48:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jan-2021 07:48:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jan-2021 07:48:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 07:48:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1127.19.1.el7.x86_64
+28-Jan-2021 07:48:07.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 07:48:07.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+28-Jan-2021 07:48:07.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_282-b08
+28-Jan-2021 07:48:07.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2021 07:48:07.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2021 07:48:07.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2021 07:48:07.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2021 07:48:07.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 07:48:07.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 07:48:07.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 07:48:07.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2021 07:48:07.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 07:48:07.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2021 07:48:07.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2021 07:48:07.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2021 07:48:07.026 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.6.5].
+28-Jan-2021 07:48:07.026 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2021 07:48:07.027 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2021 07:48:07.031 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+28-Jan-2021 07:48:08.288 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:48:08.587 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2382] milliseconds
+28-Jan-2021 07:48:08.714 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 07:48:08.714 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jan-2021 07:48:08.798 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/jpetstore.war]
+28-Jan-2021 07:48:11.978 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2021 07:48:12.147 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+28-Jan-2021 07:48:14.554 INFO [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.initDatabase Starting embedded database: url='jdbc:hsqldb:mem:dataSource', username='sa'
+28-Jan-2021 07:48:16.964 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 4817 ms
+28-Jan-2021 07:48:17.068 INFO [main] net.sourceforge.stripes.util.Log.info Using VFS adapter net.sourceforge.stripes.vfs.DefaultVFS
+28-Jan-2021 07:48:17.782 INFO [main] net.sourceforge.stripes.util.Log.info No locale list specified, defaulting to single locale: en
+28-Jan-2021 07:48:18.064 WARNING [main] net.sourceforge.stripes.util.Log.warn No MultipartWrapper implementation could be loaded
+28-Jan-2021 07:48:18.297 INFO [main] net.sourceforge.stripes.util.Log.info Stripes Initialization Complete. Version: 1.6.0, Build: 1.6.0
+28-Jan-2021 07:48:18.390 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/jpetstore.war] has finished in [9,586] ms
+28-Jan-2021 07:48:18.407 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 07:48:18.560 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9973] milliseconds
+28-Jan-2021 07:48:26.420 INFO [http-nio-8080-exec-2] net.sourceforge.stripes.util.Log.info Expression validation will be performed using: net.sourceforge.stripes.validation.expression.Jsp21ExpressionExecutor
+28-Jan-2021 07:57:06.245 WARNING [http-nio-8080-exec-3] org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl.warn As you are using functionality that deserializes object streams, it is recommended to define the JEP-290 serial filter. Please refer to https://docs.oracle.com/pls/topic/lookup?ctx=javase15&id=GUID-8296D8E8-2B93-4B9A-856E-0A65AF9B8C66
+28-Jan-2021 08:05:31.347 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:05:31.362 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2021 08:05:31.422 INFO [Thread-4] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.shutdownDatabase Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+28-Jan-2021 08:05:31.460 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jpetstore] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2021 08:05:31.468 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:05:31.537 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:05:50.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1127.19.1.el7.x86_64
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_282-b08
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2021 08:05:50.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2021 08:05:50.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2021 08:05:50.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 08:05:50.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 08:05:50.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 08:05:50.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2021 08:05:50.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 08:05:50.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2021 08:05:50.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2021 08:05:50.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2021 08:05:50.297 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.6.5].
+28-Jan-2021 08:05:50.297 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2021 08:05:50.297 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2021 08:05:50.301 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+28-Jan-2021 08:05:51.290 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:05:51.512 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2062] milliseconds
+28-Jan-2021 08:05:51.661 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 08:05:51.661 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jan-2021 08:05:51.750 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/jpetstore.war]
+28-Jan-2021 08:05:55.799 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2021 08:05:55.988 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+28-Jan-2021 08:05:58.181 INFO [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.initDatabase Starting embedded database: url='jdbc:hsqldb:mem:dataSource', username='sa'
+28-Jan-2021 08:05:59.972 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 3967 ms
+28-Jan-2021 08:06:00.026 INFO [main] net.sourceforge.stripes.util.Log.info Using VFS adapter net.sourceforge.stripes.vfs.DefaultVFS
+28-Jan-2021 08:06:00.708 INFO [main] net.sourceforge.stripes.util.Log.info No locale list specified, defaulting to single locale: en
+28-Jan-2021 08:06:00.994 WARNING [main] net.sourceforge.stripes.util.Log.warn No MultipartWrapper implementation could be loaded
+28-Jan-2021 08:06:01.102 INFO [main] net.sourceforge.stripes.util.Log.info Stripes Initialization Complete. Version: 1.6.0, Build: 1.6.0
+28-Jan-2021 08:06:01.171 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/jpetstore.war] has finished in [9,417] ms
+28-Jan-2021 08:06:01.182 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:06:01.288 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9775] milliseconds
+28-Jan-2021 08:08:24.387 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:08:24.399 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2021 08:08:24.408 INFO [Thread-4] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.shutdownDatabase Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+28-Jan-2021 08:08:24.428 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jpetstore] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2021 08:08:24.433 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:08:24.517 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:08:36.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1127.19.1.el7.x86_64
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_282-b08
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2021 08:08:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2021 08:08:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2021 08:08:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 08:08:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 08:08:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 08:08:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2021 08:08:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 08:08:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2021 08:08:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2021 08:08:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2021 08:08:36.768 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.6.5].
+28-Jan-2021 08:08:36.768 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2021 08:08:36.768 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2021 08:08:36.778 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+28-Jan-2021 08:08:37.396 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:08:37.498 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1132] milliseconds
+28-Jan-2021 08:08:37.611 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 08:08:37.612 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jan-2021 08:08:37.684 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/jpetstore.war]
+28-Jan-2021 08:08:40.276 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2021 08:08:40.378 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+28-Jan-2021 08:08:42.877 INFO [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.initDatabase Starting embedded database: url='jdbc:hsqldb:mem:dataSource', username='sa'
+28-Jan-2021 08:08:45.827 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 5449 ms
+28-Jan-2021 08:08:45.900 INFO [main] net.sourceforge.stripes.util.Log.info Using VFS adapter net.sourceforge.stripes.vfs.DefaultVFS
+28-Jan-2021 08:08:46.579 INFO [main] net.sourceforge.stripes.util.Log.info No locale list specified, defaulting to single locale: en
+28-Jan-2021 08:08:46.850 WARNING [main] net.sourceforge.stripes.util.Log.warn No MultipartWrapper implementation could be loaded
+28-Jan-2021 08:08:47.035 INFO [main] net.sourceforge.stripes.util.Log.info Stripes Initialization Complete. Version: 1.6.0, Build: 1.6.0
+28-Jan-2021 08:08:47.113 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/jpetstore.war] has finished in [9,425] ms
+28-Jan-2021 08:08:47.120 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:08:47.149 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9650] milliseconds
+28-Jan-2021 08:39:39.963 INFO [http-nio-8080-exec-1] net.sourceforge.stripes.util.Log.info Expression validation will be performed using: net.sourceforge.stripes.validation.expression.Jsp21ExpressionExecutor
+28-Jan-2021 08:56:36.725 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:56:36.736 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2021 08:56:36.830 INFO [Thread-4] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.shutdownDatabase Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+28-Jan-2021 08:56:36.892 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jpetstore] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2021 08:56:36.914 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:56:36.943 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:56:49.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1127.19.1.el7.x86_64
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_282-b08
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2021 08:56:49.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2021 08:56:49.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2021 08:56:49.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 08:56:49.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 08:56:49.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 08:56:49.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2021 08:56:49.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 08:56:49.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2021 08:56:49.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2021 08:56:49.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2021 08:56:49.176 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.6.5].
+28-Jan-2021 08:56:49.176 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Jan-2021 08:56:49.176 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2021 08:56:49.286 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+28-Jan-2021 08:56:50.128 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:56:50.314 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1883] milliseconds
+28-Jan-2021 08:56:50.445 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 08:56:50.445 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+28-Jan-2021 08:56:50.565 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/jpetstore.war]
+28-Jan-2021 08:56:54.282 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2021 08:56:54.508 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+28-Jan-2021 08:56:57.207 INFO [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory.initDatabase Starting embedded database: url='jdbc:hsqldb:mem:dataSource', username='sa'
+28-Jan-2021 08:57:00.255 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 5746 ms
+28-Jan-2021 08:57:00.341 INFO [main] net.sourceforge.stripes.util.Log.info Using VFS adapter net.sourceforge.stripes.vfs.DefaultVFS
+28-Jan-2021 08:57:01.162 INFO [main] net.sourceforge.stripes.util.Log.info No locale list specified, defaulting to single locale: en
+28-Jan-2021 08:57:01.675 WARNING [main] net.sourceforge.stripes.util.Log.warn No MultipartWrapper implementation could be loaded
+28-Jan-2021 08:57:01.965 INFO [main] net.sourceforge.stripes.util.Log.info Stripes Initialization Complete. Version: 1.6.0, Build: 1.6.0
+28-Jan-2021 08:57:02.030 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/jpetstore.war] has finished in [11,458] ms
+28-Jan-2021 08:57:02.051 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 08:57:02.179 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11864] milliseconds
+28-Jan-2021 09:16:37.009 INFO [http-nio-8080-exec-1] net.sourceforge.stripes.util.Log.info Expression validation will be performed using: net.sourceforge.stripes.validation.expression.Jsp21ExpressionExecutor

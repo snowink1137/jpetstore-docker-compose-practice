@@ -1,0 +1,12 @@
+FROM tomcat:9.0.41-jdk8-openjdk-buster
+
+ARG conf
+ARG warpath
+
+COPY $conf/*  /usr/local/tomcat/conf/
+COPY $warpath /usr/local/tomcat/webapps/
+
+EXPOSE 8080
+
+WORKDIR /usr/local/tomcat/bin
+CMD ["catalina.sh", "run"]
